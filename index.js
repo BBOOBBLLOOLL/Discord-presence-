@@ -33,29 +33,6 @@ opener("https://replit.com/");
 
 rpc.login({
 
-    clientId:"984849533974487130"
+    clientId:"Deine Client ID"
 
 })
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
