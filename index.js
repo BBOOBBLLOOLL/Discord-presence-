@@ -1,12 +1,12 @@
 const RPC = require("discord-rpc")
 const opener = require("opener");
-const clientid = "Deine CLient ID"
+const clientid = "Client Id"
 const rpc = new RPC.Client({
     transport: 'ipc'
 });
 
 rpc.on('ready', () => {
-    
+    console.log("RPC online")
       rpc.setActivity({
           details:'Editing index.js',
           state:'Flamingo Bot v13',
@@ -20,7 +20,7 @@ rpc.on('ready', () => {
               url: 'https://replit.com'
           }]
           
-console.log("RPC online")
+
         
           
     })
