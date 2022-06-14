@@ -1,5 +1,6 @@
 const RPC = require("discord-rpc")
 const opener = require("opener");
+const clientid = "Deine CLient ID"
 const rpc = new RPC.Client({
     transport: 'ipc'
 });
@@ -33,6 +34,6 @@ opener("https://replit.com/");
 
 rpc.login({
 
-    clientId:"Deine Client ID"
+    clientId:clientid
 
 })
