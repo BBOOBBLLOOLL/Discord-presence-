@@ -8,8 +8,8 @@ const rpc = new RPC.Client({
 rpc.on('ready', () => {
     console.log("RPC online")
       rpc.setActivity({
-          details:'Editing index.js',
-          state:'Flamingo Bot v13',
+          details:'Editing Code',
+          state:'Discord Bot',
           startTimestamp: new Date(),
           largeImageKey:'https://play-lh.googleusercontent.com/HHOYPEvrlSEcy9Ldxf4lVf88m9NdgmNelO--2kDUrxmf_shVUElRTkNIiopJApBAYvwq',
           largeImageText:'Replit.com',
